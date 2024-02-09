@@ -1,0 +1,232 @@
+<?php include("../umum/inc_headerA.php") ?>
+<style>
+     .logo {
+          color: #fff;
+          border: 2px solid #A0EDFF;
+          border-radius: 60px;
+          -webkit-border-radius: 60px;
+          background: #0d6efd;
+     }
+
+     .transaksi-page {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          display: inline-block;
+          align-items: center;
+     }
+</style>
+
+<<div class="modal bg" tabindex="-1">
+     <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+               <div class="modal-body text-center">
+                    <form action="" method="post">
+                         <table class="mx-auto">
+                              <tr>
+                                   <td>
+                                        hyy
+                                   </td>
+                                   <td>
+                                        <input type="text" class="form-control" size="25">
+                                   </td>
+                              </tr>
+                              <tr>
+                                   <td>
+                                        <button type="button" class="btn btn-secondary"
+                                             data-bs-dismiss="modal">Close</button>
+                                   </td>
+                                   <td>
+                                        <button type="button" class="btn btn-primary float-end" ">Submit</button>
+                             </td>
+                         </tr>
+                     </table>
+                 </form>
+             </div>
+         </div>
+     </div>
+ </div>
+ 
+
+
+
+
+<!-- transaksi copy -->
+<section>
+     <div class=" container mt-5 mb-5">
+
+
+                                             <!-- awal row -->
+                                             <div class="row">
+                                                  <div class="col-sm-10">
+                                                       <h1 class="fs-2">Transaksi</h1>
+                                                  </div>
+                                                  <!-- awal col -->
+                                                  <div class="col-sm-12 mx-auto mt-5">
+                                                       <div class="card-body bg-light">
+                                                            <!-- align-self-center -->
+                                                            <!-- validation masih ada yang error -->
+                                                            <!-- <form class="needs-validation justify-content-md-auto" novalidate> -->
+                                                            <form class="justify-content-md-auto" action="">
+                                                                 <div class="row">
+                                                                      <div class="col-4"></div>
+                                                                      <div class="col-4">
+                                                                           <label for="name"
+                                                                                class="form-label">Nama</label>
+                                                                           <input type="text" class="form-control w-100"
+                                                                                id="name" placeholder="Example"
+                                                                                required>
+                                                                      </div>
+                                                                      <div class="col-4"></div>
+                                                                 </div>
+                                                                 <div class="row mt-2">
+                                                                      <div class="col-4"></div>
+                                                                      <div class="col-4">
+                                                                           <label for="noOrder" class="form-label">No.
+                                                                                Order</label>
+                                                                           <input type="text" class="form-control"
+                                                                                id="noOrder" placeholder="Example"
+                                                                                required>
+                                                                      </div>
+                                                                      <div class="col-4"></div>
+                                                                 </div>
+                                                                 <div class="row mt-2">
+                                                                      <div class="col-4"></div>
+                                                                      <div class="col-4">
+                                                                           <label for="tglOrder"
+                                                                                class="form-label">Tanggal Order</label>
+                                                                           <input type="date" class="form-control"
+                                                                                id="tglOrder" placeholder="Example"
+                                                                                required>
+                                                                      </div>
+                                                                      <div class="col-4"></div>
+                                                                 </div>
+
+                                                                 <div class="row mt-2">
+                                                                      <div class="col-4"></div>
+                                                                      <div class="col-4">
+                                                                           <label for="no.hp"
+                                                                                class="form-label">No.Hp</label>
+                                                                           <input type="text" class="form-control"
+                                                                                id="no.hp" placeholder="Example"
+                                                                                required>
+                                                                      </div>
+                                                                      <div class="col-4"></div>
+                                                                 </div>
+
+                                                                 <div class="row mt-2">
+                                                                      <div class="col-4"></div>
+                                                                      <div class="col-4">
+                                                                           <label for="" class="form-label">Jenis
+                                                                                Paket</label>
+                                                                           <select class="form-select" id=""
+                                                                                aria-describedby="" required>
+                                                                                <option selected disabled value="">Pilih
+                                                                                </option>
+                                                                                <option value="">contoh1</option>
+                                                                                <option value="">contoh2</option>
+                                                                                <option value="">contoh3</option>
+                                                                           </select>
+                                                                      </div>
+                                                                      <div class="col-4"></div>
+                                                                 </div>
+
+                                                                 <div class="row mt-2">
+                                                                      <div class="col-4"></div>
+                                                                      <div class="col-4">
+                                                                           <label for="berat"
+                                                                                class="form-label">Berat</label>
+                                                                           <div class="input-group">
+                                                                                <input type="number"
+                                                                                     class="form-control" id="berat"
+                                                                                     placeholder="Example" required>
+                                                                                <div class="input-group-append">
+                                                                                     <span
+                                                                                          class="input-group-text">KG</span>
+                                                                                </div>
+                                                                           </div>
+                                                                      </div>
+                                                                      <div class="col-4"></div>
+                                                                 </div>
+
+                                                                 <div class="row row-cols-2 mt-2">
+                                                                      <div class="col-4"></div>
+                                                                      <div class="col-4 col-lg-2">
+                                                                           <label for="harga"
+                                                                                class="form-label">Harga</label>
+                                                                           <div class="input-group">
+                                                                                <div class="input-group-append">
+                                                                                     <span
+                                                                                          class="input-group-text">Rp.</span>
+                                                                                </div>
+                                                                                <input type="text" class="form-control"
+                                                                                     id="harga" placeholder="Example"
+                                                                                     required>
+                                                                           </div>
+                                                                      </div>
+                                                                      <div class="col-4 col-lg-2">
+                                                                           <label for="totalharga"
+                                                                                class="form-label">Total Harga</label>
+                                                                           <div class="input-group">
+                                                                                <div class="input-group-append">
+                                                                                     <span
+                                                                                          class="input-group-text">Rp.</span>
+                                                                                </div>
+                                                                                <input type="text" class="form-control"
+                                                                                     id="totalharga"
+                                                                                     placeholder="Example" required>
+                                                                           </div>
+                                                                      </div>
+                                                                 </div>
+
+                                                                 <div
+                                                                      class="row row-cols-2 mt-5 justify-content-md-auto">
+                                                                      <div class="col-4"></div>
+
+                                                                      <div class="col-4 col-lg-3">
+                                                                           <button class="btn btn-primary w-90"
+                                                                                type="submit">Submit form</button>
+                                                                      </div>
+
+                                                                      <div class="col-4 col-lg-3">
+                                                                           <button class="btn btn-danger w-90"
+                                                                                type="reset">Reset form</button>
+                                                                      </div>
+
+                                                                      <div class="col-4"></div>
+                                                                 </div>
+
+                                                            </form>
+                                                       </div>
+
+                                                  </div>
+                                                  <!-- akhir col -->
+                                             </div>
+                                             <!-- akhir row -->
+               </div>
+
+               </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               <?php include("../umum/inc_footerA.php") ?>

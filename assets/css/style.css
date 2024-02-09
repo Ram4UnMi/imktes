@@ -1,0 +1,41 @@
+body {
+     position: relative;
+}
+
+/* main {
+     margin-bottom: 220px;
+} */
+
+
+/* 
+1. NAVBAR ________________________________________________________________________________ */
+.navbar .navbar-brand {
+     text-decoration: none;
+     color: #fff;
+     font-size: 22px;
+}
+
+.navbar .navbar-brand span {
+     color: #000000;
+     font-weight: bold;
+     border: 2px solid #A0EDFF;
+     border-radius: 30px;
+     background: #A0EDFF;
+}
+
+.navbar .navbar-nav .navbar-item {
+     padding: 15px;
+}
+
+.navbar .navbar-nav .nav-but {
+     padding: 10px;
+}
+
+.navbar .collapse {
+     font-size: 18px;
+}
+
+
+
+/* 
+2. FOOTER _______________________________________________________________________ */
